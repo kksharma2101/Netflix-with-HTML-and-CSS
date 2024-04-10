@@ -29,7 +29,7 @@ export const Header = () => {
                 </div>
 
                 <div
-                    className="flex flex-col gap-5 justify-center text-white text-center items-center mt-40 md:mt-50 px-2">
+                    className="flex flex-col gap-4 h-full justify-center text-white text-center items-center  px-2">
 
                     <h1
                         className="text-white text-4xl md:text-5xl font-extrabold tracking-wide leading-tight">Unlimited movies, Tv shows and more</h1>

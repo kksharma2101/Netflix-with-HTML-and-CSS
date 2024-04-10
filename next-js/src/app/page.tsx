@@ -6,6 +6,7 @@ import poster3 from "../../public/images/feature-3.png"
 import poster4 from "../../public/images/feature-4.png"
 import { CardComponent2 } from "@/components/CardComponent2";
 import { QuestionComponent } from "@/components/QuestionComponent";
+import { Footer } from "@/components/Footer";
 
 export default function Home({ heading_text, para_text, image }: any) {
   return (
@@ -21,6 +22,8 @@ export default function Home({ heading_text, para_text, image }: any) {
       <CardComponent2 image={poster4} heading_text={"Create profiles for kids"} para_text={"Send children on adventures with their favourite characters in a space made just for them—free with your membership."} />
 
       <QuestionComponent />
+
+      <Footer />
 
     </main>
   );
