@@ -10,7 +10,7 @@ import { Footer } from "@/components/Footer";
 
 export default function Home({ heading_text, para_text, image }: any) {
   return (
-    <main>
+    <main className="bg-opacity-95">
       <Header />
 
       <CardComponent image={poster1} heading_text={"Enjoy on your TV"} para_text={"Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more."} />
