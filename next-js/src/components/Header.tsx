@@ -19,12 +19,12 @@ export const Header = () => {
                 <div
                     className='flex items-center justify-between px-3 md:px-8 pt-4'>
                     <Link href="/">
-                        <Image src={img} width={100} height={100} alt='logo' className='' />
+                        <Image src={img} alt='logo' className='w-24 sm:w-32 md:w-36 ' />
                     </Link>
                     <div className=" flex items-center justify-between gap-4">
                         <button className='border border-[1px solid white] px-2 py-1 rounded-md bg-slate-900 text-white' onClick={() => setLang(true)}>{!lang ? "Eng ▲" : "HI ▼"}
                         </button>
-                        <button className='bg-red-600 text-white py-1 px-2 rounded-md'>Sign In</button>
+                        <button className='bg-red-600 text-white py-1 px-4 rounded-md'>Sign In</button>
                     </div>
                 </div>
 
